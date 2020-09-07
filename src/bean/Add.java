@@ -4,8 +4,12 @@ public class Add {
 public static void add(int a,int b) {
 	System.out.print(a+b);
 }
+public static void sub(int a,int b) {
+	System.out.print(a-b);
+}
 	public static void main(String[] args) {
 		add(9,7);
+		sub(9,4);
 	}
 
 }
